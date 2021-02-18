@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+
+body{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    background-color: bisque;
+}
+
+header{
+    border-bottom: 1px solid brown;
+    padding: 8px 0 8px 8px;
+}
+
+.nav{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 16px 0 16px;
+    text-align: left;
+    width: 200px;
+    float: none;
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+}
+
+a {
+    color: brown;
+    font-weight: bold;
+}
+
+a:hover{
+background-color: brown;
+color: white;
+}
+
+p{
+    line-height: 23 px;
+}
+
+
+.aside{
+    display: inline-block;
+    vertical-align:top;
+    padding: 20px 0 20px 20px;
+    width: 750px;
+    border-left: 1px solid brown;
+    position: relative;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+    border: 1px solid brown;
+    text-align: left;
+    padding: 7px;
+}
